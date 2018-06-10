@@ -134,6 +134,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\turtle\game.hpp" />
+    <ClInclude Include="include\turtle\volume.hpp" />
+    <ClInclude Include="include\turtle\water_tank.hpp" />
+    <ClInclude Include="include\turtle\water_tank_type.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\volume.cpp" />
+    <ClCompile Include="src\water_tank.cpp" />
+    <ClCompile Include="src\water_tank_type.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
